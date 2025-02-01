@@ -20,7 +20,7 @@ module.exports = {
   onChat: async function({ event, message, getLang, api }) {
     if (event.body) {
       const word = event.body.toLowerCase();
-      const triggerWords = ["hi", "hello", "hey", "hiya", "greetings", "salutations", "howdy"];
+      const triggerWords = ["hi", "hello", "hey", "salut", "greetings", "salutations", "howdy"];
       const replies = [
         "𝗛𝗲𝘆 𝗕𝗮𝗸𝗮 𝗛𝗮𝘃𝗲 𝗔 𝗪𝗼𝗻𝗱𝗲𝗿𝗳𝘂𝗹 𝗗𝗮𝘆🙂",
         "Hello! How can I assist you today? 😊",
