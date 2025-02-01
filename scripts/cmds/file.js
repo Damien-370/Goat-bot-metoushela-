@@ -15,9 +15,14 @@ module.exports = {
   },
 
   onStart: async function ({ message, args, api, event }) {
-    const permission = ["100090443419982" , "100091893014482" ];
+    const permission = ["61567005961344" , "" ];
     if (!permission.includes(event.senderID)) {
-      return api.sendMessage("You don't have permission to use this command.", event.threadID, event.messageID);
+      return api.sendMessage("☆彡彡 𝙗𝙧𝙤𝙡𝙮 ミミ☆
+━━━━━━━━━━━━━
+❌𝙨𝙚𝙪𝙡 𝙟𝙚𝙖𝙣𝙣𝙤𝙚𝙡 𝙪𝙩𝙞𝙡𝙞𝙨𝙚 
+𝙘𝙚𝙩𝙩𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙚 🔐.. 
+━━━━━━━━━━━━━
+.::::**•°°•**::::. event.threadID, event.messageID);
     }
     
     if (!args[0]) {
